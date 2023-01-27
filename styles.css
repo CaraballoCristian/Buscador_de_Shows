@@ -74,6 +74,10 @@ body{
     
     background:linear-gradient(180deg, transparent 0%, black 60%);
 }
+.show:hover img{
+    transition: all 10s linear;
+    transform: scale(1.5);
+}
 .name, 
 .genres,
 .rating{
@@ -109,3 +113,4 @@ body{
 .error{
     margin-inline: auto;
 }
+
